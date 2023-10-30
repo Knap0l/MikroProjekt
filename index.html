@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script async type="text/javascript" src="scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Chess Introduction</title>
+</head>
+<body>
+    <header>
+        <div class="container container-nav">
+            <h1>EasyChess</h1>
+            <nav>
+                <ul>
+                    <li><span id="nav-bt1">Start</span></li>
+                    <li><span id="nav-bt2">Figury</span></li>
+                    <li><span id="nav-bt3">Strategia</span></li>
+                    <li><span id="nav-bt4">Otwarcia</span></li>
+                    <li><span id="nav-bt5">Końcówki</span></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container container-main">
+        <main>
+            <article class="article-main" id="article-page-introduction">
+                <h2 class="article-title">O stronie słów kilka</h2>
+                <p>
+                    Jeśli szukasz miejsca, w którym nauczysz się podstaw grania w szachy - od tajników ruszania bierkami
+                    po proste otwarcia i warte uwagi schematy gry końcowej - to dobrze trafiłeś. Chess Intoduction to
+                    strona przygotowana specjalnie dla absolutnych laików gry królewskiej. Po zapoznaniu się z artykułami
+                    będziesz posiadał solidne fundamenty pod swoją dalszą przygodę z szachami.
+                </p>
+            </article>
+
+            <article class="article-main container-article" id="article-pieces">
+                <h2 class="article-title">Figury</h2>
+                <article class="article-piece-info">
+                    <h3 class="article-subtitle">Król</h3>
+                    <img src="images/white_king.png" alt="king" class="piece-image">
+                    <p>
+                        Król jest najważniejszą figurą na szachownicy. To właśnie o niego toczy się cała gra i od jego
+                        bezpieczeństwa zależy, czy będziesz mieć szansę na wygraną. Król może ruszyć się o jedno pole
+                        we wszystkie kierunki. Jednak jeśli pole jest atakowane przez przeciwnika ruch staje się nielegalnym.
+                        Król jest jedyną figurą, której nie można zbić. Zamiast tego można go zamatować, co kończy partię.
+                        <br>
+                        Dodatkowo król posiada specjalny ruch - roszadę. 
+                    </p>
+                </article>
+                
+                <article class="article-piece-info">
+                    <h3 class="article-subtitle">Wieża</h3>
+                    <img src="images/white_rook.png" alt="rook" class="piece-image">
+                    <p>
+                        Wieże są niezwykle istotnymi figurami w czasie trwania partii, choć najbardziej błyszczą w grze końcowej.
+                        Mogą ruszać się poziomo i pionowo na dowolną ilość pól. Nie mogą jednak przejść przez pole, na którym
+                        znajduje się figura sojusznicza lub przeciwnika. Mogą natomiast zbić figurę przeciwnika.
+                    </p>
+                </article>
+                
+                <article class="article-piece-info">
+                    <h3 class="article-subtitle">Pionek</h3>
+                    <img src="images/white_pawn.png" alt="pawn" class="piece-image">
+                    <p>
+                        Pion to pozornie nieistotna, lecz zaskakująca potężna figura. W grze początkowej to
+                        piony utrzymują strukturę naszej pozycji, a w końcowej mogą skorzystać ze swojego
+                        unikalnego ruchu jakim jest promocja i zamienić się w Hetmana, Gońca, Skoczka lub Wieżę. 
+                        Ruch ten jednak jest możliwy tylko wtedy, kiedy pionek dochodzi do ostatniego pola na szachownicy.
+                        <br>
+                        Pionek może poruszać się o jedno pole do przodu lub o dwa, gdy jest to jego pierwszy ruch.
+                        Pionek może zbić figurę przeciwnika gdy znajduje się ona naprzeciw niego po lewej lub prawej stronie.
+                        <br>
+                        Oprócz tego posiada również drugi specjalny ruch "en passant", który omówimy w innym artykule.
+                    </p>
+                </article>
+                
+                <article class="article-piece-info">
+                    <h3 class="article-subtitle">Skoczek</h3>
+                    <img src="images/white_knight.png" alt="knight" class="piece-image">
+                    <p>
+                        Poznanie ruchów skoczka należy do najtrudniejszych, ponieważ porusza się na kształt
+                        litery "L". Skoczek to jedyna figura, która może ruszyć się przez pola na których
+                        znajduja się bierki nasze lub przeciwnika.
+                    </p>
+                </article>
+                
+                <article class="article-piece-info">
+                    <h3 class="article-subtitle">Goniec</h3>
+                    <img src="images/white_bishop.png" alt="bishop" class="piece-image">
+                    <p>
+                        Gońce mogą poruszać się jedynie po przekątnych. Jest to często wykorzystywane przy atakach
+                        z odsłony, gdzie sprytnie ukryty goniec w początkowej fazie gry, może okazać się zabójczy
+                        w grze środkowej.
+                    </p>
+                </article>
+                
+                <article class="article-piece-info">
+                    <h3 class="article-subtitle">Hetman</h3>
+                    <img src="images/white_queen.png" alt="queen" class="piece-image">
+                    <p>
+                        Hetman zwany również królową jest niewątpliwie najsilniejszą figurą w grze. Potrafi poruszać
+                        się zarówno jak wieża jak i goniec, co czyni go najbardziej mobilną z figur. Utrata hetmana
+                        oznacza zwykle przegraną w partii.
+                    </p>
+                </article>
+                
+            </article>
+
+            <article class="article-main" id="article-strategy">
+                <h2 class="article-title">Podstawy strategii</h2>
+                <p>
+                    Zaczynając grać w szachy należy pamiętać o kilku najważniejszych krokach.
+                </p>
+
+                <h3 class="article-subtitle">
+                    Zajęcie centrum szachownicy
+                </h3>
+                <p>
+                    Im więcej pól kontrolujesz, tym większą przewagę posiadasz nad swoim przeciwnikiem.
+                    Centrum zajmujemy, ponieważ to właśnie w nim najlepiej odnajdują się skoczki.
+                    <br>
+                    Drugim istotnym powodem jest bezpieczeństwo króla. W początkowej fazie gry nie mamy
+                    możliwości zrobienia roszady ani odejścia królem, dlatego istotne jest, aby bronić
+                    linii, na której się znajduje.
+                </p>
+                <h3 class="article-subtitle">
+                    Wyprowadzenie figur lekkich z pozycji początkowych oraz połączenie wież
+                </h3>
+                <p>
+                    Ten punkt został już poruszony wyżej. Chcemy, aby nasze figury były aktywne - kontrolowały
+                    wiele pól. Spędzając całą partię na pozycjach starowych nie przyczynią się zbytnio do
+                    wyniku partii.
+                </p>
+                <h3 class="article-subtitle">
+                    Przemyślenie po każdym ruchu przeciwnika jaki przyświeca mu cel
+                </h3>
+                <p>
+                    W szachach nigdy nie powinno się podejmować decyzji pochodnie lub analizując, tylko swoje
+                    możliwości. Co z tego, że można zdobyć hetmana przeciwnika, jeśli przeciwnik da nam mata
+                    w następnych ruchu.
+                </p>
+
+            </article>
+
+            <article class="article-main container-article" id="article-openings">
+                <section>
+                    <h2 class="article-title">Otwarcia</h2>
+                    <p>
+                        Rozpoczynając przygodę z szachami można zignorować otwarcia, skupiając się jedynie na 
+                        poprawnym wyprowadzaniu figur. Mimo to warto zapoznań się z kilkoma popularnymi otwarciami
+                        które mogą znacznie ułatwić dalszą część partii.
+                        <br>
+                        <br>
+                        Wybór otwarcia zależy przede wszystkim od koloru bierek jakim gramy. Przykładowo grając czarnymi,
+                        możemy skusić sie na jakieś defensywne otwarcie, ponieważ już na samym starcie biały jest bardziej
+                        agresywny - w końcu to on rozpoczyna partię. 
+                        <br>
+                        Poniżej film opisujący podstawowe otwarcia szachowe:
+                    </p>
+                </section>
+                <div class="other-page-link">
+                    <a href="https://youtu.be/8IlJ3v8I4Z8">Basic Chess Openings Explained</a>
+                </div>
+            </article>
+
+            <article class="article-main" id="article-endings">
+                <section>
+                    <p>
+                        <h2 class="article-title">Końcówki</h2>
+                        Końcówki to element gry, który po prostu trzeba opanować do perfekcji. Dlaczego? ponieważ
+                        gdy znajdujemy się w tak zwanej wygranej końcówce to seria wyuczonych ruchów wygrywa partię.
+                        Bez względu na ruchy przeciwnika mamy zwycięstwo. Jedyny problem to po nie sięgnąć. Często zdarza
+                        się, że początkująca osoba będąca w wygranej pozycji, przegrywa przez swoją niewiedzę.
+                        <br>
+                        Poniżej link do strony, na której najlepiej trenować końcówki:
+                    </p>
+                </section>
+                <div class="other-page-link">
+                    <a href="https://www.chess.com/pl/lessons/poznaj-koncowki">Trening końcówek na Chess.com</a>
+                </div>
+            </article>
+
+        </main>
+        <aside class="sidebar">
+            <div class="sidebar-widget">
+                <img src="images/cool-chess-piece.jpg" alt="" class="sidebar-image">
+            </div>
+            <div class="sidebar-widget">
+                <p>Sign Up For Newsletter</p>
+                <form>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required autocomplete="off">
+                    </div>
+
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required autocomplete="off">
+                    </div>
+                    <input type="submit" value="Send" class="btn">
+                </form>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="container">
+        <p>Prepared With Love To Chess.com</p>
+    </footer>
+</body>
